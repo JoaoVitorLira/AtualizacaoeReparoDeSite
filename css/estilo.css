@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-color: #AE0A00;
+    background-color: rgb(43, 41, 41);
     height: 80px;
     position: fixed;
     width: 100vw;
@@ -43,10 +43,11 @@ header {
 }
 
 .menu-header a {
+    font-family: 'Noto Sans', sans-serif;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 15px;
     transition: 0.5s;
 }
 
@@ -57,17 +58,18 @@ header {
 }
 
 .botao{
-    background-color: #610500;
+    background-color: #006CB5;
+    border-radius: 5px;
     height: 45px;
     width: 150px;
     text-align: center;
     line-height: 47px;
-    font-size: 1.5em !important;
+    font-size: 15px !important;
     border: solid 1px #080324;
 }
 
 .botao:hover{
-    font-size: 1.6em !important;
+    font-size: 20px !important;
     height: 50px;
     line-height: 53px;
     width: 160px;
@@ -101,20 +103,22 @@ header {
 }
 
 h1 {
+    font-family: 'Noto Sans', sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 70px;
+    font-style: bold;
 }
 
 .linha-amarela {
-    border: solid 1px #E6837E;
+    border: solid 1px #006CB5   ;
 }
 
 .titulo-senai {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Noto Sans', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .mouse {
@@ -129,9 +133,11 @@ h1 {
 }
 
 .sobre-projetos h2 {
-    color: #E00B00;
-    font-size: 50px;
-    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 600;
     margin-bottom: 40px;
 }
 
@@ -149,22 +155,26 @@ h1 {
 }
 
 .texto-participantes {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .conteudo-sobre h3 {
-    color: #E6837E;
-    font-size: 45px;
-    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    color: #006CB5;
+    font-style: bold;
+    font-size: 35px;
+    font-weight: 1000;
+    justify-content: justify;
 }
 
 .texto-sobre p {
     color: #FFFFFF;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
     text-align: justify;
 }
 
@@ -188,15 +198,21 @@ h1 {
 }
 
 .card-info h3 {
+    font-family: 'Noto Sans', sans-serif;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 .card-info p {
+    background-color: rgba(43, 41, 41, 0.733);
+    font-family: 'Noto Sans', sans-serif;
     color: white;
     font-size: 22px;
-    font-weight: 600;
-    border: solid 2px #AE0A00;
+    font-weight: 200;
+    border: solid 2px #006CB5;
     width: 250px;
     padding: 30px 0;
     text-align: center;
@@ -209,21 +225,22 @@ h1 {
 
 .conteudo-endereco {
     margin: 0 auto;
-    max-width: 850px;
+    max-width: 900px;
     position: relative;
 }
 
 .conteudo-endereco h2 {
-    color:#E00B00 ;
-    font-size: 50px;
-    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    color:white;
+    font-size: 35px;
+    font-weight: 1000;
 }
 
 .texto-endereco {
-    color: #E00B00;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #010010;
-    border: solid 2px white;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    background-color:  rgba(43, 41, 41, 0.733);
+    border: solid 2px #006CB5;
     padding: 55px 55px;
 }
 
@@ -233,15 +250,17 @@ h1 {
 }
 
 .mapa {
-    width: 250px;
+    height: 160px;
+    width: 200px;
     position: absolute;
-    top: 0px;
+    margin-top: 50px;
+    top: 1px;
     right: 20px;
 }
 
 footer {
     height: 80px;
-    background-color: #AE0A00;
+    background-color: rgb(43, 41, 41);
     color: white;
     display: flex;
     justify-content: center;
